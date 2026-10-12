@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-label="Mei signs a letter and an AUSD authorization. The counter pays Idris and keeps the stamp.">
+  <rect width="960" height="220" fill="#10241c"/>
+  <g fill="#18342a" stroke="#d7f27a" stroke-opacity="0.55">
+    <rect x="24" y="70" width="160" height="72" rx="12"/>
+    <rect x="230" y="36" width="200" height="64" rx="12"/>
+    <rect x="230" y="124" width="200" height="64" rx="12"/>
+    <rect x="480" y="70" width="180" height="72" rx="12"/>
+    <rect x="710" y="28" width="220" height="64" rx="12"/>
+    <rect x="710" y="124" width="220" height="64" rx="12"/>
+  </g>
+  <g fill="#f6f1e6" font-family="Georgia, serif" font-size="16">
+    <text x="48" y="100">Meis passkey</text>
+    <text x="48" y="122" font-size="13" fill="#c9d4cc">index 0, no phrase</text>
+    <text x="250" y="62">Letter</text>
+    <text x="250" y="84" font-size="13" fill="#c9d4cc">name, stamp, 90s</text>
+    <text x="250" y="150">AUSD authorization</text>
+    <text x="250" y="172" font-size="13" fill="#c9d4cc">amount + 0.30</text>
+    <text x="500" y="100">Counter</text>
+    <text x="500" y="122" font-size="13" fill="#c9d4cc">one inclusion</text>
+    <text x="730" y="54">Idris · Lagos</text>
+    <text x="730" y="76" font-size="13" fill="#c9d4cc">$80.00</text>
+    <text x="730" y="150">Post office</text>
+    <text x="730" y="172" font-size="13" fill="#c9d4cc">$0.30, posted</text>
+  </g>
+  <g stroke="#d7f27a" fill="none" stroke-width="1.5">
+    <path d="M184 106 H210 V68 H230"/>
+    <path d="M184 106 H210 V156 H230"/>
+    <path d="M430 68 H455 V106 H480"/>
+    <path d="M430 156 H455 V106"/>
+    <path d="M660 106 H690 V60 H710"/>
+    <path d="M690 106 V156 H710"/>
+  </g>
+</svg>

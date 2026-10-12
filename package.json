@@ -1,0 +1,28 @@
+{
+  "name": "stamp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sunday money from Shenzhen to Lagos. The stamp names the recipient. Monad Metropolis — consumer payments.",
+  "scripts": {
+    "dev": "next dev --hostname localhost --port 3094",
+    "build": "next build",
+    "start": "next start --hostname localhost --port 3094",
+    "test": "node --import tsx --test src/lib/desk.test.ts src/lib/story.test.ts src/lib/contract.test.ts"
+  },
+  "dependencies": {
+    "@category-labs/mera": "^0.1.0",
+    "@scure/bip32": "^1.7.0",
+    "@scure/bip39": "^1.6.0",
+    "next": "^16.3.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "viem": "^2.37.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "tsx": "^4.20.5",
+    "typescript": "^5.8.2"
+  }
+}
