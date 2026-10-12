@@ -8,7 +8,7 @@ const body = Figtree({ subsets: ["latin"], variable: "--font-body" });
 export const metadata: Metadata = {
   title: "Stamp — Sunday money",
   description: "Mei sends eighty dollars from Shenzhen to Lagos. The stamp names Idris. A clerk cannot rewrite it.",
-  manifest: "/manifest.json",
+  manifest: `${process.env.PAGES === "1" ? "/Stamp" : ""}/manifest.json`,
   appleWebApp: { capable: true, title: "Stamp" },
 };
 
