@@ -1,0 +1,16 @@
+{
+  "name": "Stamp",
+  "short_name": "Stamp",
+  "start_url": "/Stamp/phone/",
+  "display": "standalone",
+  "background_color": "#143028",
+  "theme_color": "#143028",
+  "icons": [
+    {
+      "src": "/Stamp/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
